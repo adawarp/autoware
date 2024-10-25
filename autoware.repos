@@ -79,7 +79,7 @@ repositories:
   # Kentora ros controller 
   kentora-ros-controller:
     type: git
-    url: https://github.com/adawarp/kentora-ros-controller.git
+    url: git@github.com:adawarp/kentora-ros-controller.git
     version: kentora-velocity-report
   sensor_component/external/sensor_component_description:
     type: git
