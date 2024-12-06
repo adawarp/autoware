@@ -138,5 +138,5 @@ repositories:
     version: e3d9cf2686a125fc5fdbeadeffc3515a050d1c1e
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: 95019952513934a7653a2575c864ec4ace2f87b9
+    url: git@github.com:adawarp/autoware_individual_params.git
+    version: 2024-05-autoware
