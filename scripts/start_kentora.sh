@@ -1,0 +1,1 @@
+ros2 run kentora_ros_controller dentora_autoware_controller 
