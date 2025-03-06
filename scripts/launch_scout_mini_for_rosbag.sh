@@ -1,8 +1,17 @@
 
+# ros2 launch autoware_launch autoware_with_ouster.launch.xml \
+#     launch_sensing_driver:=false launch_vehicle_interface:=false \
+#     sensor_model:=livox_sensor_kit \
+#     map_path:=/home/adagro/work/map/2024-09-23-satake \
+#     vehicle_model:=scout_mini_vehicle \
+#     vehicle_id:=scout_mini \
+#     use_sim_time:=true
+
 ros2 launch autoware_launch autoware_with_ouster.launch.xml \
     launch_sensing_driver:=false launch_vehicle_interface:=false \
     sensor_model:=ouster_sensor_kit \
-    map_path:=/home/adagro/work/map/2024-09-23-satake \
-    vehicle_model:=scout_mini_vehicle \
-    vehicle_id:=scout_mini \
-    use_sim_time:=true
+    map_path:=/home/adagro/work/satake-map/lidarslam-ouster/mgrs \
+    vehicle_model:=scout_mini_vehicle use_sim_time:=true vehicle_id:=scout_mini 
+
+
+

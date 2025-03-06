@@ -124,9 +124,9 @@ repositories:
     version: 02a085987f144e7eac754ca50993d14fc98bef4d
   
   # Vehicle 
-  vehicle/dentora_vehicle_launch:
+  vehicle/adawarp_vehicle_launch:
     type: git
-    url: https://github.com/adawarp/dentora_vehicle_launch.git
+    url: git@github.com:adawarp/adawarp_vehicle_launch.git
     version: 2024-05-autoware 
   vehicle/sample_vehicle_launch:
     type: git
